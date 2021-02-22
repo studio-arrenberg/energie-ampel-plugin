@@ -2,8 +2,8 @@
 // get weather station data
 
 // // Clients public and private key provided by service provider
-$public_key = "public_key";
-$private_key = "private_key";
+$public_key = "${{ secrets.FIELDCLIMATE_PUBLIC_KEY }}";
+$private_key = "${{ secrets.FIELDCLIMATE_PRIVATE_KEY }}";
 
 // Define the request parameter's
 $method = "GET";
