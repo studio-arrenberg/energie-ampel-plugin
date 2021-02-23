@@ -8,7 +8,7 @@ function my_acf_init() {
 		
 		// register a testimonial block
 		acf_register_block(array(
-			'name'				=> 'wetter',
+			'name'				=> 'arrenberg-wetter',
 			'title'				=> __('Arrenberg Wetter'),
 			'description'		=> __('Das Wetter am Arrenberg'),
 			'render_callback'	=> 'wetter_block_render_callback',
