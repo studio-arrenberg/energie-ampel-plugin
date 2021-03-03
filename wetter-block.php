@@ -1,7 +1,7 @@
 <?php
 
-add_action('init', 'my_acf_init');
-function my_acf_init() {
+add_action('init', 'acf_init_arrenberg_weather_block');
+function acf_init_arrenberg_weather_block() {
 	
 	// wetter block
 	if( function_exists('acf_register_block') ) {
