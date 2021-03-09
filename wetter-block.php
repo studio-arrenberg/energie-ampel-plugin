@@ -14,7 +14,7 @@ function acf_init_arrenberg_weather_block() {
 			'render_callback'	=> 'wetter_block_render_callback',
 			'category'			=> 'common', //  quartiersplattform
 			'icon'				=> 'cloud',
-			'keywords'			=> array( 'wetter', 'arreberg', 'farm' ),
+			'keywords'			=> array( 'wetter', 'arrenberg', 'farm' ),
 		));
 	}
 }
