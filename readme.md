@@ -1,4 +1,7 @@
-## Wordpress Plugin. Arrenberg Farm Wetter
-Plugin to display the Arrenberg Farm weatherprovided through Field Climate.
+## Arrenberg Farm Wetter
+Plugin to display the Arrenberg Farm weather provided through Field Climate.
 
-Explained [here](https://www.yaconiello.com/blog/how-to-write-wordpress-plugin)
+# Arrenberg Wetter
+Plugin für die Quartiersplattform am Arrenberg um das Wetter der Arrenberg Farm als Gutenberg Block auf der Plattform anzuzeigen. 
+
+Francis Yaconiello [Anleitung](https://www.yaconiello.com/blog/how-to-write-wordpress-plugin) wurde zum erstellen dieses Plugins genutzt.
