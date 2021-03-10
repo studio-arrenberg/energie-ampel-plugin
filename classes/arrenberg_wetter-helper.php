@@ -60,10 +60,9 @@ else {
 
 ?>
 
-<div class="card landscape shadow bg_blue" data-content-piece="Arrenberg Wetter">
+<div class="card landscape  bg_blue" data-content-piece="Arrenberg Wetter">
     <!-- A Tag sollte nicht für seletor der styles genutzt werden -->
     <!-- Bitte A Tag raus nehmen -->
-    <a>
         <div class="content white-text">
             <div class="emojis-top"><?php echo preg_replace('/\./', ',',$json_decoded->data[0]->values->avg[0]); ?>°C</div>
             <h3 class="card-title">
@@ -73,5 +72,4 @@ else {
                 <?php echo number_format($json_decoded->data[9]->values->avg[0], 0); ?>% Luftfeuchtigkeit & <?php echo $secondary; ?>  
             </p>
         </div>
-    </a>
 </div>
