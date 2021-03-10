@@ -66,10 +66,13 @@ else {
         <div class="content white-text">
             <div class="emojis-top"><?php echo preg_replace('/\./', ',',$json_decoded->data[0]->values->avg[0]); ?>°C</div>
             <h3 class="card-title">
-                Das aktuelle Wetter von der Arrenberg Farm <?php // echo date('G:i',$json_decoded->dates[0]);  ?>
+                Das aktuelle Wetter von der Arrenberg Farm<?php // echo date('G:i',$json_decoded->dates[0]);  ?>
             </h3>
             <p class="preview-text">
-                <?php echo number_format($json_decoded->data[9]->values->avg[0], 0); ?>% Luftfeuchtigkeit & <?php echo $secondary; ?>  
+                <?php echo number_format($json_decoded->data[9]->values->avg[0], 0); ?>% Luftfeuchtigkeit & <?php echo $secondary; ?>  <br>
+
             </p>
+            <!-- <a class="button card-button">Hier gehts zum Projekt</a> -->
+
         </div>
 </div>
