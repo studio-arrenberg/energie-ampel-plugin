@@ -30,6 +30,8 @@ $res = json_decode($resp, true);
 
             <div class="energie-ampel-titles">
                 <div>
+                    <?php echo get_locale(); ?>
+                    <?php if (is_user_logged_in()) echo get_user_locale(get_current_user_id()); ?>
                     <h2><?php _e('Energie Ampel', 'quartiersplattform'); ?> <span>für Wuppertal</span></h2>
                     <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'quartiersplattform')." "; ?><?php _e('Phase', 'quartiersplattform'); ?></h3>
                 </div>
@@ -42,7 +44,7 @@ $res = json_decode($resp, true);
 
             <div class="strom_array-container">
                 <div class="strom_array">
-                    <div class="<?php echo $res['current']['color']; ?>"><label class="day">Jetzt</label></div>
+                    <div class="<?php echo $res['current']['color']; ?>"><label class="day"><?php _e('Jetzt', 'quartiersplattform'); ?></label></div>
 
                         <?php 
                         // iterate array
@@ -50,7 +52,7 @@ $res = json_decode($resp, true);
 
                             $label = '';
                             if ($color != $item['color']) $label = "<label>".$item['time']."</label>";
-                            if (strftime('%A', $timeline) != strftime('%A', $unix)) echo "<label class='midnight'>".strftime('%A', $timeline)."</label>";
+                            if (strftime('%A', $timeline) != strftime('%A', $unix)) echo "<label class='midnight'>".__(strftime('%A', $timeline))."</label>";
                             
                             echo "<div class='".$item['color']."'>$label</div>";
 
