@@ -1,14 +1,14 @@
 <?php
 /*
-Plugin Name: Arrenberg Farm Wetter 
+Plugin Name: Quartiersplattform Energie Ampel
 Version: 1.0
-Description: Gutenberg Blocks für das Arrenberg Wetter
+Description: Energie Ampel der WSW für die Quartiersplattformen in Wuppertal
 Author: studio arrenberg
 Author URI: https://github.com/studio-arrenberg
-Plugin URI: https://github.com/studio-arrenberg/arrenberg-farm-wetter
+Plugin URI: https://github.com/studio-arrenberg/energie-ampel-plugin
 Requires PHP: 7.0
-Text Domain: arrenberg-farm-wetter
-Function: Arrenberg_Farm_Wetter
+Text Domain: energie-ampel
+Function: Energie_Ampel
 */
 
 // Exit if accessed directly
@@ -16,9 +16,9 @@ if (!defined( 'ABSPATH')) {
 	exit;
 }
 
-if(!class_exists('ArrenbergFarmInit')):
+if(!class_exists('EnergieAmpelInit')):
 
-Class ArrenbergFarmInit {
+Class EnergieAmpelInit {
 
 	/**
 	 * __construct
@@ -30,9 +30,9 @@ Class ArrenbergFarmInit {
 	 * @return	void
 	 */
 	function __construct() {
-		define('Arrenberg_Farm_Wetter', '1.0');
-		define('Arrenberg_Farm_Wetter', __FILE__);
-		define('Arrenberg_Farm_Wetter', plugin_dir_path(__FILE__));
+		define('Energie_Ampel', '1.0');
+		define('Energie_Ampel', __FILE__);
+		define('Energie_Ampel', plugin_dir_path(__FILE__));
 	}
 
 	/**
@@ -106,23 +106,23 @@ Class ArrenbergFarmInit {
 		// );
 
 		// Verify if Advanced Custom Fields PRO is activated
-		add_action('admin_init', function() {
-			if (is_admin() && current_user_can('activate_plugins') && !class_exists('acf_pro')) {
-				add_action('admin_notices', function() {
-					$notice = __('Sorry, but ACF Onyx Poll requires that ACF PRO is installed and active.', 'arrenberg-farm-wetter');
-					echo "<div class='error'><p>$notice</p></div>";
-				});
-				deactivate_plugins(plugin_basename(__FILE__));
-				if (isset($_GET['activate'])) {
-					unset($_GET['activate']);
-				}
-		    }
-		});
+		// add_action('admin_init', function() {
+		// 	if (is_admin() && current_user_can('activate_plugins') && !class_exists('acf_pro')) {
+		// 		add_action('admin_notices', function() {
+		// 			$notice = __('Sorry, but ACF Onyx Poll requires that ACF PRO is installed and active.', 'energie-ampel');
+		// 			echo "<div class='error'><p>$notice</p></div>";
+		// 		});
+		// 		deactivate_plugins(plugin_basename(__FILE__));
+		// 		if (isset($_GET['activate'])) {
+		// 			unset($_GET['activate']);
+		// 		}
+		//     }
+		// });
 
 		// Load ACF fields
-		add_action('acf/init', function() {
+		// add_action('acf/init', function() {
 			// require(__DIR__ . '/acf/fields.php');
-		});
+		// });
 
 		// if(is_admin()) {
 		// 	// Create Poll Post Type
@@ -130,7 +130,7 @@ Class ArrenbergFarmInit {
 		// }
 
 		// Load Gutenberg Block
-		require_once(__DIR__ . '/wetter-block.php');
+		require_once(__DIR__ . '/energie-ampel-content.php');
 
 		// Load widget
 		// require_once(__DIR__ . '/admin/poll-widget.php');
@@ -180,8 +180,8 @@ Class ArrenbergFarmInit {
 /**
  * Instantiate Onyx Poll
  */
-$arrenberg_wetter = new ArrenbergFarmInit();
-$arrenberg_wetter->initialize();
+$energie_ampel = new EnergieAmpelInit();
+$energie_ampel->initialize();
 
 endif; // class_exists check
 
