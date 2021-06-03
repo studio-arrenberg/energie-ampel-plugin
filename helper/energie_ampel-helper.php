@@ -32,7 +32,7 @@ $res = json_decode($resp, true);
                 <div>
                     <?php echo get_locale(); ?>
                     <?php if (is_user_logged_in()) echo get_user_locale(get_current_user_id()); ?>
-                    <h2><?php _e('Energie Ampel', 'quartiersplattform'); ?> <span>für Wuppertal</span></h2>
+                    <h2><?php _e('Energie Ampel', 'quartiersplattform'); ?> <span><?php _e('für', 'quartiersplattform');?> Wuppertal</span></h2>
                     <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'quartiersplattform')." "; ?><?php _e('Phase', 'quartiersplattform'); ?></h3>
                 </div>
 
