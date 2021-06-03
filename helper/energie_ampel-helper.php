@@ -42,6 +42,8 @@ $res = json_decode($resp, true);
                 </div>
             </div>
 
+            <?php //_e('Tuesday');?>
+
             <div class="strom_array-container">
                 <div class="strom_array">
                     <div class="<?php echo $res['current']['color']; ?>"><label class="day"><?php _e('Jetzt', 'quartiersplattform'); ?></label></div>
