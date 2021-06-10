@@ -19,19 +19,15 @@ $res = json_decode($resp, true);
 
 <div class="overlay-content">
     <button class="button  " onclick="hide()">
-    
-    <!-- <?php require get_template_directory() . '/assets/icons/person.svg'; ?> -->
-        <?php _e('Zurück', 'quartiersplattform'); ?></span>
+            <?php _e('Zurück', 'quartiersplattform'); ?></span>
     </button>
-    <?php // get_template_part('components/energie_ampel-menu'); ?>
-
 
         <div class="energie-ampel">
 
             <div class="energie-ampel-titles">
                 <div>
                     <?php echo get_locale(); ?>
-                    <?php if (is_user_logged_in()) echo get_user_locale(get_current_user_id()); ?>
+                    <?php // if (is_user_logged_in()) echo get_user_locale(get_current_user_id()); ?>
                     <h2><?php _e('Energie Ampel', 'quartiersplattform'); ?> <span><?php _e('für', 'quartiersplattform');?> Wuppertal</span></h2>
                     <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'quartiersplattform')." "; ?><?php _e('Phase', 'quartiersplattform'); ?></h3>
                 </div>
@@ -68,7 +64,6 @@ $res = json_decode($resp, true);
         </div>
 
         <div class="vpp-animation">
-            <!-- <img class="vpp-animation <?php echo $res['current']['color']; ?>" src="<?php echo plugin_dir_path( __FILE__ ).'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.svg'; ?>"> -->
             <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?>
         </div>
 
