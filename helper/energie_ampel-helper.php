@@ -42,7 +42,7 @@ $res = json_decode($resp, true);
                 </div>
             </div>
 
-            <?php //_e('Tuesday');?>
+            <?php // _e('Tuesday', 'Wordpress');?>
 
             <div class="strom_array-container">
                 <div class="strom_array">
@@ -68,8 +68,10 @@ $res = json_decode($resp, true);
         </div>
 
         <div class="vpp-animation">
-            <img class="vpp-animation <?php echo $res['current']['color']; ?>" src="<?php echo get_template_directory_uri()?>/assets/vpp-animation/VPP_Stromampel_Animation_<?php echo $res['current']['color']; ?>.svg">
+            <!-- <img class="vpp-animation <?php echo $res['current']['color']; ?>" src="<?php echo plugin_dir_path( __FILE__ ).'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.svg'; ?>"> -->
+            <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.svg' ); ?>
         </div>
+
 
         <script>
 
