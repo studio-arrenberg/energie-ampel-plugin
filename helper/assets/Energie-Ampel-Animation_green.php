@@ -7,6 +7,7 @@
             }
             .cls-10 {
                 fill: transparent;
+                stroke: #000;
             }
 
              .white {
@@ -14,7 +15,7 @@
                 stroke: white;
             }
             .cls-2 {
-                fill: #3e3e3f;
+                fill: #000;
             }
 
             .cls-3,
@@ -64,7 +65,7 @@
             }
 
             .cls-10 {
-                stroke: #3e3e3e;
+                stroke: #000;
             }
 
             #eco path {

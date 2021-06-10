@@ -6,8 +6,8 @@
 
             }
             .cls-10 {
-                stroke: black;
-                fill: transparent;
+                stroke: #000;
+                                fill: transparent;
             }
 
              .white {
@@ -15,7 +15,7 @@
                 stroke: white;
             }
             .cls-2 {
-                fill: #3e3e3f;
+                fill: #000;
             }
 
             .cls-3,
