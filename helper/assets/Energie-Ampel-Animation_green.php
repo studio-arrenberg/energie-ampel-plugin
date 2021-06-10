@@ -136,7 +136,7 @@
 
         </style>
     </defs>
-    <title>_finalStromampel_grün_Pfade_Animation</title>
+    <title>Energie Ampel grüne Phase</title>
     <g id="smoke">
         <g>
             <path id="Pfad_78" data-name="Pfad 78" class="cls-1" d="M294.14,228.44a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,294.14,228.44Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" />
@@ -292,6 +292,10 @@
         </g>
         <path id="Pfad_80" data-name="Pfad 80" class="cls-2" d="M67.75,158.65a7.23,7.23,0,0,1-4.22-1.44,7,7,0,0,0,1.12,1.32l-.91,36.14,2,.1.91-35.22a3.46,3.46,0,0,0,1,.1,4.17,4.17,0,0,0,1.12-.1l1,35.12,2-.1-1-36.14A12.22,12.22,0,0,0,72,157.21,6.82,6.82,0,0,1,67.75,158.65Z" />
     </g>
+    <!-- Text -->
+    <text x="2" y="18" fill="red"><?php _e('Viel Strom im Netz','quartiersplaattform'); ?></text>
+    
+    <!-- Phase Colors -->
     <g id="Phase_color">
         <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />
         <circle id="Ellipse-2" data-name="Ellipse" class="cls-7" cx="267.79" cy="63.77" r="27.05" />
