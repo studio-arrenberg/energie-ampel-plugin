@@ -38,7 +38,8 @@ $res = json_decode($resp, true);
                 </div>
             </div>
 
-            <?php // _e('Tuesday', 'Wordpress');?>
+            <?php // _e('Tuesday', 'Wordpress');
+            ?>
 
             <div class="strom_array-container">
                 <div class="strom_array">
