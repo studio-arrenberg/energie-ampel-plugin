@@ -48,7 +48,7 @@ $res = json_decode($resp, true);
 
                             $label = '';
                             if ($color != $item['color']) $label = "<label>".$item['time']."</label>";
-                            if (strftime('%A', $timeline) != strftime('%A', $unix)) echo "<label class='midnight'>".__(strftime('%A', $timeline), "twentytwenty")."</label>";
+                            if (date_i18n('l', $timeline) != date_i18n('l', $unix)) echo "<label class='midnight'>".__(date_i18n('l', $timeline), "twentytwenty")."</label>";
                             
                             echo "<div class='".$item['color']."'>$label</div>";
 
