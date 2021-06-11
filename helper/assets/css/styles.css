@@ -10,22 +10,13 @@
 
 }
 
-.energie-ampel-titles h2,
-.energie-ampel-titles h3 {
-  margin: 0px;
-  font-size: 2rem;
-  text-transform: capitalize;
+.energie-ampel-title h2{
+  margin-bottom: 10px;
 }
 
-.energie-ampel-titles {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: -20px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.energie-ampel-titles div:last-of-type {
-  text-align: right;
+.energie-ampel-title {
+  text-align: center;
+  margin-top: -45px;
 }
 .strom_array-container {
   overflow-x: scroll;
@@ -78,6 +69,86 @@
     opacity: 1;
   }
 }
+
+
+.strom_array div:first-of-type {
+  transform: scale(1);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+
+.strom_array div:first-of-type .red {
+  box-shadow: 0 0 0 0 #ef6363;
+  animation: pulse-red 2s infinite;
+}
+
+.strom_array div:first-of-type .yellow {
+  box-shadow: 0 0 0 #efd763;
+  animation: pulse-yellow 2s infinite;
+}
+
+
+.strom_array div:first-of-type.green {
+  box-shadow: 0 0 0 #40b82e;
+  animation: pulse-green 2s infinite;
+}
+
+.strom_array .red {
+  background: rgb(239, 99, 99);
+}
+.strom_array .yellow {
+  background: rgb(239, 215, 99);
+}
+.strom_array .green {
+  background: rgb(64, 184, 46);
+}
+
+@keyframes pulse-red {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgb(239, 99, 99, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px rgb(239, 99, 99, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgb(239, 99, 99, 0);
+  }
+}
+
+@keyframes pulse-yellow {
+  0% {
+    transform: scale(0.95);
+   box-shadow: 0 0 0 0 rgb(239, 215, 99, 0.7);
+  }
+  70% {
+    transform: scale(1);
+      -webkit-box-shadow: 0 0 0 15px rgb(239, 215, 99, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    -webkit-box-shadow: 0 0 0 0 rgb(239, 215, 99, 0);
+  }
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(64, 184, 46, 0.7);
+  }
+  70% {
+    transform: scale(1);
+      box-shadow: 0 0 0 15px rgba(64, 184, 46, 0);
+  }
+  100% {
+    transform: scale(0.95);
+   box-shadow: 0 0 0 0 rgba(64, 184, 46, 0);
+  }
+}
+
 
 .strom_array .red {
   background: #ef6363;
@@ -132,3 +203,11 @@
 .green {
   color: #40b82e;
 }
+
+
+.vpp-animation{
+  text-align: center;
+}
+
+.vpp-animation h2{
+  margin-bottom: 0px;}
