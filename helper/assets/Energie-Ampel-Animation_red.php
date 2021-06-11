@@ -188,7 +188,29 @@
                 animation: smokeR 2s 1s infinite
             }
 
-           
+            #Phase_color{
+                animation: scale 2s infinite;
+                transform-origin-x: 50%;
+                transform-origin-y: 15%;
+            }
+
+            @keyframes scale {
+                0% {
+                  transform: scale(1);
+
+                }
+             
+                50% {
+                    transform: scale(1.2);
+
+                }
+
+                100% {
+                  transform: scale(1);
+
+                }
+             
+            }
 
         </style>
     </defs>

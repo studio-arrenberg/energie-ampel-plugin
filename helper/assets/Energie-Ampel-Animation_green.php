@@ -53,7 +53,7 @@
             .cls-7,
             .cls-8,
             .cls-9 {
-                fill: #19995a;
+                fill: #40b82e;
             }
 
             .cls-7 {
@@ -72,7 +72,7 @@
                 stroke-dasharray: 0 35;
                 stroke-width: 10;
                 animation: dash 14s linear infinite;
-                stroke: #19995a;
+                stroke: #40b82e;
                 fill: ;
 
             }
@@ -81,7 +81,7 @@
                 stroke-dasharray: 0 35;
                 stroke-width: 10;
                 animation: dash 14s linear infinite;
-                stroke: #19995a;
+                stroke: #40b82e;
                 fill: ;
 
             }
@@ -91,11 +91,34 @@
                 stroke-width: 0;
 
                 animation-direction: reverse;
-                stroke: #19995a;
+                stroke: #40b82e;
 
             }
+            #Phase_color{
+                animation: scale 2s infinite;
+                transform-origin-x: 50%;
+                transform-origin-y: 15%;
+            }
 
+            @keyframes scale {
+                0% {
+                  transform: scale(1);
 
+                }
+             
+                50% {
+                    transform: scale(1.2);
+
+                }
+
+                100% {
+                  transform: scale(1);
+
+                }
+             
+            }
+
+        
 
             @keyframes dash {
                 to {
