@@ -21,5 +21,10 @@ function energie_ampel_overlay() {
 	}
 }
 
+// load styles
+function css_style_energie_ampel(){
+    wp_enqueue_style( 'plugin-style-energie-ampel', plugins_url( '/helper/assets/css/styles.css', __FILE__ ), false, null );
+}
+add_action('wp_enqueue_scripts', 'css_style_energie_ampel');
 
 ?>
