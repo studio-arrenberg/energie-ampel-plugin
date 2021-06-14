@@ -68,7 +68,7 @@ $res = json_decode($resp, true);
             </div>
 
             
-            <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'."yellow".'.php' ); ?>
+            <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?>
         </div>
 
         <br><br>

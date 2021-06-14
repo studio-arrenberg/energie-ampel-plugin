@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-06-14 16:19+0200\n"
-"PO-Revision-Date: 2021-06-14 16:21+0200\n"
+"PO-Revision-Date: 2021-06-14 16:44+0200\n"
 "Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -17,43 +17,43 @@ msgstr ""
 
 #: energie-ampel-content.php:37
 msgid "Montag"
-msgstr "Monday"
+msgstr ""
 
 #: energie-ampel-content.php:38
 msgid "Dienstag"
-msgstr "Tuesday"
+msgstr ""
 
 #: energie-ampel-content.php:39
 msgid "Mittwoch"
-msgstr "Wednesday"
+msgstr ""
 
 #: energie-ampel-content.php:40
 msgid "Donnerstag"
-msgstr "Thursday"
+msgstr ""
 
 #: energie-ampel-content.php:41
 msgid "Freitag"
-msgstr "Friday"
+msgstr ""
 
 #: energie-ampel-content.php:42
 msgid "Samstag"
-msgstr "Saturday"
+msgstr ""
 
 #: energie-ampel-content.php:43
 msgid "Sonntag"
-msgstr "Sunday"
+msgstr ""
 
 #: energie-ampel-content.php:44 energie-ampel-content.php:46
 msgid "grüne"
-msgstr "green"
+msgstr ""
 
 #: energie-ampel-content.php:47
 msgid "rote auswählen"
-msgstr "select red"
+msgstr ""
 
 #: energie-ampel-content.php:48
 msgid "gelbe auswählen"
-msgstr "select yellow"
+msgstr ""
 
 #: energie-ampel-content.php:51
 msgid "Monday"
@@ -86,86 +86,86 @@ msgstr "Sonntag"
 #: helper/assets/Energie-Ampel-Animation_green.php:329
 #: helper/assets/Energie-Ampel-Animation_yellow.php:389
 msgid "Viel Strom im Netz"
-msgstr "A lot of electricity in the grid"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_green.php:330
 #: helper/assets/Energie-Ampel-Animation_red.php:382
 #: helper/assets/Energie-Ampel-Animation_yellow.php:390
 msgid "Erneuerbare Energien"
-msgstr "Renewable energies"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_green.php:331
 #: helper/assets/Energie-Ampel-Animation_red.php:383
 #: helper/assets/Energie-Ampel-Animation_yellow.php:391
 msgid "Fossile Energieträger"
-msgstr "Fossil energy sources"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_green.php:332
 #: helper/assets/Energie-Ampel-Animation_red.php:384
 #: helper/assets/Energie-Ampel-Animation_yellow.php:392
 msgid "Quartier"
-msgstr "Quartier"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_green.php:333
 msgid "Stromampel auf grün"
-msgstr "Power traffic light on green"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_green.php:334
 msgid "wenig Verbrauch"
-msgstr "little consumption"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_red.php:381
 msgid "Wenig Strom im Netz"
-msgstr "Little power in the grid"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_red.php:385
 msgid "Stromampel auf rot"
-msgstr "Current traffic light on red"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_red.php:386
 #: helper/assets/Energie-Ampel-Animation_yellow.php:394
 msgid "Viel Verbrauch"
-msgstr "Much consumption"
+msgstr ""
 
 #: helper/assets/Energie-Ampel-Animation_yellow.php:393
 msgid "Stromampel auf gelb"
-msgstr "Current traffic light on yellow"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:22
 msgid "Zurück"
-msgstr "Back"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:27
 msgid "Energie Ampel"
-msgstr "Energy traffic light"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:27
 msgid "für"
-msgstr "for"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:28
 msgid "Phase"
-msgstr "Stage"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:42
 msgid "Jetzt"
-msgstr "Now"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:65
 msgid "Aktueller Emissionsfaktor"
-msgstr "Current emission factor"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:66
 msgid "gramm"
-msgstr "gram"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:67
 msgid "pro kWh"
-msgstr "per kWh"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:77
 msgid "Die Energie Ampel erklärt"
-msgstr "The energy traffic light explained"
+msgstr ""
 
 #: helper/energie_ampel-helper.php:78
 msgid ""
@@ -187,21 +187,3 @@ msgid ""
 "Klimaschutz mitwirken. Das löst zwar noch nicht alle Probleme, ist aber ein "
 "smarter Schritt, den alle gehen können. "
 msgstr ""
-"The electricity we use creates different levels of CO2 emissions at "
-"different times of the day and night. This depends on how much regionally "
-"and regeneratively produced electricity is actually flowing in the grid and "
-"how high city-wide consumption is. For example, if the grid is currently "
-"being supplied with a lot of wind energy from northern Germany, solar energy "
-"from the south or energy produced by individual households, the current, "
-"real CO2 emissions will decrease. Wuppertal’s public utilities have been "
-"calculating the actual hourly CO2 emissions behind the electricity we "
-"consume for several years. In collaboration with the Bergische University "
-"and the Arrenberg Climate District, these were transferred to grids and the "
-"“energy weather” concept was developed and made visible. It divides CO2 "
-"emissions into three levels and shows them in red, yellow and green to "
-"indicate whether they are currently high or low and how they are likely to "
-"evolve in the coming hours and days. So you can reschedule your usage "
-"instead of cutting down. Use existing devices instead of always buying new "
-"ones. These are ways in which every household can contribute to the energy "
-"transition and climate protection, regardless of financial resources. It "
-"won’t solve all our problems, but it’s a smart step that everyone can take. "
