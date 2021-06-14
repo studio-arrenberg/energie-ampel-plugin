@@ -226,7 +226,7 @@
 
         </style>
     </defs>
-    <title>_finalStromampel_Rot_Pfade_Animation</title>
+    <title>Energie Ampel rote Phase</title>
     <g id="smoke">
         <!-- <g> -->
             <!-- <path id="Pfad_78" data-name="Pfad 78" class="cls-1" d="M295.57,228.44a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,295.57,228.44Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" /> -->

@@ -230,7 +230,7 @@
 
         </style>
     </defs>
-    <title>testStromampel_gelb_Pfade_Animation</title>
+    <title>Energie Ampel gelbe Phase</title>
     
     <g id="smoke">
         <!-- <g> -->
