@@ -160,6 +160,7 @@
             .text{
                 color:black;
                 font-size:16px;
+                text-align:center;
             }
             .cls-6{
                 display:none;
