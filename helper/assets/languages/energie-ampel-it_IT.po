@@ -1,9 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-06-13 14:15+0200\n"
-"PO-Revision-Date: 2021-06-14 10:15+0200\n"
+"POT-Creation-Date: 2021-06-14 16:36+0200\n"
+"PO-Revision-Date: 2021-06-14 16:36+0200\n"
+"Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
 "Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,8 +13,6 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;_x\n"
-"Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
-"Language: it\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: helper/energie_ampel-helper.php\n"
 "X-Poedit-SearchPath-2: helper/assets\n"
@@ -57,25 +57,53 @@ msgstr "seleziona il rosso"
 msgid "gelbe auswählen"
 msgstr "seleziona il giallo"
 
+#: energie-ampel-content.php:51
+msgid "Monday"
+msgstr "Lunedì"
+
+#: energie-ampel-content.php:52
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: energie-ampel-content.php:53
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: energie-ampel-content.php:54
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: energie-ampel-content.php:55
+msgid "Friday"
+msgstr "Venerdì"
+
+#: energie-ampel-content.php:56
+msgid "Saturday"
+msgstr "Sabato"
+
+#: energie-ampel-content.php:57
+msgid "Sunday"
+msgstr "Domenica"
+
 #: helper/assets/Energie-Ampel-Animation_green.php:329
 #: helper/assets/Energie-Ampel-Animation_yellow.php:389
 msgid "Viel Strom im Netz"
 msgstr "Molta elettricità nella rete"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:330
-#: helper/assets/Energie-Ampel-Animation_red.php:383
+#: helper/assets/Energie-Ampel-Animation_red.php:382
 #: helper/assets/Energie-Ampel-Animation_yellow.php:390
 msgid "Erneuerbare Energien"
 msgstr "Energie rinnovabili"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:331
-#: helper/assets/Energie-Ampel-Animation_red.php:384
+#: helper/assets/Energie-Ampel-Animation_red.php:383
 #: helper/assets/Energie-Ampel-Animation_yellow.php:391
 msgid "Fossile Energieträger"
 msgstr "Fonti di energia fossile"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:332
-#: helper/assets/Energie-Ampel-Animation_red.php:385
+#: helper/assets/Energie-Ampel-Animation_red.php:384
 #: helper/assets/Energie-Ampel-Animation_yellow.php:392
 msgid "Quartier"
 msgstr "Quartier"
@@ -88,15 +116,15 @@ msgstr "Semaforo di potenza sul verde"
 msgid "wenig Verbrauch"
 msgstr "poco consumo"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:382
+#: helper/assets/Energie-Ampel-Animation_red.php:381
 msgid "Wenig Strom im Netz"
 msgstr "Poca potenza nella rete"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:386
+#: helper/assets/Energie-Ampel-Animation_red.php:385
 msgid "Stromampel auf rot"
 msgstr "Semaforo attuale sul rosso"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:387
+#: helper/assets/Energie-Ampel-Animation_red.php:386
 #: helper/assets/Energie-Ampel-Animation_yellow.php:394
 msgid "Viel Verbrauch"
 msgstr "Molto consumo"
@@ -137,11 +165,11 @@ msgstr "grammo"
 msgid "pro kWh"
 msgstr "per kWh"
 
-#: helper/energie_ampel-helper.php:76
+#: helper/energie_ampel-helper.php:77
 msgid "Die Energie Ampel erklärt"
 msgstr "Il semaforo dell'energia spiega"
 
-#: helper/energie_ampel-helper.php:77
+#: helper/energie_ampel-helper.php:78
 msgid ""
 "Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen "
 "unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und "
