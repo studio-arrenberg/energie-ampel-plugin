@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-13 14:15+0200\n"
+"PO-Revision-Date: 2021-06-14 10:19+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
+"Language: tr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: helper/energie_ampel-helper.php\n"
+"X-Poedit-SearchPath-2: helper/assets\n"
+
+#: energie-ampel-content.php:37
+msgid "Montag"
+msgstr "Pazartesi"
+
+#: energie-ampel-content.php:38
+msgid "Dienstag"
+msgstr "Salı"
+
+#: energie-ampel-content.php:39
+msgid "Mittwoch"
+msgstr "Çarşamba"
+
+#: energie-ampel-content.php:40
+msgid "Donnerstag"
+msgstr "Perşembe"
+
+#: energie-ampel-content.php:41
+msgid "Freitag"
+msgstr "Cuma"
+
+#: energie-ampel-content.php:42
+msgid "Samstag"
+msgstr "Cumartesi"
+
+#: energie-ampel-content.php:43
+msgid "Sonntag"
+msgstr "Pazar"
+
+#: energie-ampel-content.php:44 energie-ampel-content.php:46
+msgid "grüne"
+msgstr "yeşil"
+
+#: energie-ampel-content.php:47
+msgid "rote auswählen"
+msgstr "kırmızıyı seç"
+
+#: energie-ampel-content.php:48
+msgid "gelbe auswählen"
+msgstr "sarı seç"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:329
+#: helper/assets/Energie-Ampel-Animation_yellow.php:389
+msgid "Viel Strom im Netz"
+msgstr "Şebekede çok fazla elektrik"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:330
+#: helper/assets/Energie-Ampel-Animation_red.php:383
+#: helper/assets/Energie-Ampel-Animation_yellow.php:390
+msgid "Erneuerbare Energien"
+msgstr "Yenilenebilir enerji"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:331
+#: helper/assets/Energie-Ampel-Animation_red.php:384
+#: helper/assets/Energie-Ampel-Animation_yellow.php:391
+msgid "Fossile Energieträger"
+msgstr "Fosil enerji kaynakları"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:332
+#: helper/assets/Energie-Ampel-Animation_red.php:385
+#: helper/assets/Energie-Ampel-Animation_yellow.php:392
+msgid "Quartier"
+msgstr "Çeyrek"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:333
+msgid "Stromampel auf grün"
+msgstr "Güç ışığı yeşil"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:334
+msgid "wenig Verbrauch"
+msgstr "az tüketim"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:382
+msgid "Wenig Strom im Netz"
+msgstr "Şebekedeki az elektrik"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:386
+msgid "Stromampel auf rot"
+msgstr "Güç ışığı kırmızı"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:387
+#: helper/assets/Energie-Ampel-Animation_yellow.php:394
+msgid "Viel Verbrauch"
+msgstr "Çok fazla tüketim"
+
+#: helper/assets/Energie-Ampel-Animation_yellow.php:393
+msgid "Stromampel auf gelb"
+msgstr "Güç ışığı sarı"
+
+#: helper/energie_ampel-helper.php:22
+msgid "Zurück"
+msgstr "Geri Git"
+
+#: helper/energie_ampel-helper.php:27
+msgid "Energie Ampel"
+msgstr "Enerji trafik ışığı"
+
+#: helper/energie_ampel-helper.php:27
+msgid "für"
+msgstr "İçin"
+
+#: helper/energie_ampel-helper.php:28
+msgid "Phase"
+msgstr "evre"
+
+#: helper/energie_ampel-helper.php:42
+msgid "Jetzt"
+msgstr "şimdi"
+
+#: helper/energie_ampel-helper.php:65
+msgid "Aktueller Emissionsfaktor"
+msgstr "Mevcut emisyon faktörü"
+
+#: helper/energie_ampel-helper.php:66
+msgid "gramm"
+msgstr "gram"
+
+#: helper/energie_ampel-helper.php:67
+msgid "pro kWh"
+msgstr "kWh başına"
+
+#: helper/energie_ampel-helper.php:76
+msgid "Die Energie Ampel erklärt"
+msgstr "Enerji trafik ışığı açıkladı"
+
+#: helper/energie_ampel-helper.php:77
+msgid ""
+"Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen "
+"unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und "
+"regenerativ produzierter Strom gerade real im Netz fließt und wie hoch der "
+"gesamtstädtische Verbrauch ausfällt. Wird zum Beispiel gerade viel Windkraft "
+"aus Norddeutschland, Solarenergie aus dem Süden oder eigener Produktion "
+"geliefert, sinkt der gegenwärtige, reale CO2-Ausstoß. Die Wuppertaler "
+"Stadtwerke berechnen seit einigen Jahren diesen realen und stundengenauen "
+"CO2-Ausstoß hinter dem Strom, den wir verbrauchen. Zusammen mit der "
+"Bergischen Universität und dem Klimaquartier Arrenberg wurden diese "
+"Berechnungen in Raster übertragen und das hier sichtbare Energiewetter "
+"entwickelt. Es zeigt in den Phasen grün, gelb und rot in drei Stufen an, ob "
+"der CO2-Ausstoß jetzt gerade bzw. in den kommenden Stunden und Tagen hoch "
+"oder niedrig ist. Verlagerung statt Verzicht. Bestehende Geräte nutzen statt "
+"sofort neu kaufen zu müssen. Auf diesem Wege kann jeder Haushalt, unabhängig "
+"von den eigenen finanziellen Möglichkeiten an der Energiewende und dem "
+"Klimaschutz mitwirken. Das löst zwar noch nicht alle Probleme, ist aber ein "
+"smarter Schritt, den alle gehen können. "
+msgstr ""
+"Tükettiğimiz elektrik günün ve gecenin her saatinde farklı miktarda bir CO2 "
+"emisyonuna sahiptir. Bu, o anda şebekede reel olarak ne kadar yerel ve "
+"yenilenebilir olarak üretilen elektrik aktığına ve şehrin tamamındaki "
+"tüketimin ne kadar yüksek olduğuna göre değişir. Örneğin o sırada Kuzey "
+"Almanya’dan çok rüzgar enerjisi, güneyden ya da kişisel üretimden çok güneş "
+"enerjisi sağlanıyorsa, o andaki CO2 emisyonu düşer. Wuppertal Elektrik "
+"İdaresi birkaç yıldır, tükettiğimiz elektriğin arkasında yatan bu reel ve "
+"saatlik CO2 emisyonunu hesaplıyor. Bu hesaplamalar Bergische Universität ve "
+"Klimaquartier Arrenberg’le birlikte tablolara aktarıldı ve burada "
+"görülebilen enerji hava durumu geliştirildi. Burada, yeşil, sarı ve kırmızı "
+"aşamalarda, üç basamak halinde CO2 emisyonunun o anda ya da önümüzdeki "
+"saatlerde ve günlerde yüksek mi, düşük mü olduğunu gösteriyor. Feragat "
+"yerine kaydırma. Hemen yenisi almak zorunda kalmak yerine mevcut cihazları "
+"kullanmak. Bu yolla her hane, kendi maddi imkanlarından bağımsız olarak "
+"enerji dönüşümüne ve iklimin korunmasına katkıda bulunabilir. Her ne kadar "
+"bu şekilde tüm sorunlar çözülmese de herkesin atabileceği akıllı bir adım. "

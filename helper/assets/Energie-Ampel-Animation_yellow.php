@@ -386,12 +386,12 @@
     </g>
 
     <!-- Text -->
-    <text class="text" x="20" y="43" ><?php _e('Viel Strom im Netz','quartiersplattform'); ?></text>
-    <text class="text" x="10" y="210" ><?php _e('Erneuerbare Energien','quartiersplattform'); ?></text>
-    <text class="text" x="213" y="332" ><?php _e('Fossile Energieträger','quartiersplattform'); ?></text>
-    <text class="text" x="450" y="215" ><?php _e('Quartier','quartiersplattform'); ?></text>
-    <text class="text" x="216" y="15" ><?php _e('Stromampel auf gelb','quartiersplattform'); ?></text>
-    <text class="text" x="410" y="45" ><?php _e('Viel Verbrauch','quartiersplattform'); ?></text>
+    <text class="text" x="20" y="43" ><?php _e('Viel Strom im Netz','energie-ampel'); ?></text>
+    <text class="text" x="10" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
+    <text class="text" x="213" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
+    <text class="text" x="450" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
+    <text class="text" x="216" y="15" ><?php _e('Stromampel auf gelb','energie-ampel'); ?></text>
+    <text class="text" x="410" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
     
     <g id="Phase_color">
         <!-- <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />

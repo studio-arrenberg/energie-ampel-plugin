@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-13 14:15+0200\n"
+"PO-Revision-Date: 2021-06-14 10:15+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: helper/energie_ampel-helper.php\n"
+"X-Poedit-SearchPath-2: helper/assets\n"
+
+#: energie-ampel-content.php:37
+msgid "Montag"
+msgstr "Lunedì"
+
+#: energie-ampel-content.php:38
+msgid "Dienstag"
+msgstr "Martedì"
+
+#: energie-ampel-content.php:39
+msgid "Mittwoch"
+msgstr "Mercoledì"
+
+#: energie-ampel-content.php:40
+msgid "Donnerstag"
+msgstr "Giovedi"
+
+#: energie-ampel-content.php:41
+msgid "Freitag"
+msgstr "Venerdì"
+
+#: energie-ampel-content.php:42
+msgid "Samstag"
+msgstr "Sabato"
+
+#: energie-ampel-content.php:43
+msgid "Sonntag"
+msgstr "Domenica"
+
+#: energie-ampel-content.php:44 energie-ampel-content.php:46
+msgid "grüne"
+msgstr "verde"
+
+#: energie-ampel-content.php:47
+msgid "rote auswählen"
+msgstr "seleziona il rosso"
+
+#: energie-ampel-content.php:48
+msgid "gelbe auswählen"
+msgstr "seleziona il giallo"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:329
+#: helper/assets/Energie-Ampel-Animation_yellow.php:389
+msgid "Viel Strom im Netz"
+msgstr "Molta elettricità nella rete"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:330
+#: helper/assets/Energie-Ampel-Animation_red.php:383
+#: helper/assets/Energie-Ampel-Animation_yellow.php:390
+msgid "Erneuerbare Energien"
+msgstr "Energie rinnovabili"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:331
+#: helper/assets/Energie-Ampel-Animation_red.php:384
+#: helper/assets/Energie-Ampel-Animation_yellow.php:391
+msgid "Fossile Energieträger"
+msgstr "Fonti di energia fossile"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:332
+#: helper/assets/Energie-Ampel-Animation_red.php:385
+#: helper/assets/Energie-Ampel-Animation_yellow.php:392
+msgid "Quartier"
+msgstr "Quartier"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:333
+msgid "Stromampel auf grün"
+msgstr "Semaforo di potenza sul verde"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:334
+msgid "wenig Verbrauch"
+msgstr "poco consumo"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:382
+msgid "Wenig Strom im Netz"
+msgstr "Poca potenza nella rete"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:386
+msgid "Stromampel auf rot"
+msgstr "Semaforo attuale sul rosso"
+
+#: helper/assets/Energie-Ampel-Animation_red.php:387
+#: helper/assets/Energie-Ampel-Animation_yellow.php:394
+msgid "Viel Verbrauch"
+msgstr "Molto consumo"
+
+#: helper/assets/Energie-Ampel-Animation_yellow.php:393
+msgid "Stromampel auf gelb"
+msgstr "Semaforo attuale su giallo"
+
+#: helper/energie_ampel-helper.php:22
+msgid "Zurück"
+msgstr "Indietro"
+
+#: helper/energie_ampel-helper.php:27
+msgid "Energie Ampel"
+msgstr "Semaforo energetico"
+
+#: helper/energie_ampel-helper.php:27
+msgid "für"
+msgstr "per"
+
+#: helper/energie_ampel-helper.php:28
+msgid "Phase"
+msgstr "Fase"
+
+#: helper/energie_ampel-helper.php:42
+msgid "Jetzt"
+msgstr "Adesso"
+
+#: helper/energie_ampel-helper.php:65
+msgid "Aktueller Emissionsfaktor"
+msgstr "Fattore di emissione attuale"
+
+#: helper/energie_ampel-helper.php:66
+msgid "gramm"
+msgstr "grammo"
+
+#: helper/energie_ampel-helper.php:67
+msgid "pro kWh"
+msgstr "per kWh"
+
+#: helper/energie_ampel-helper.php:76
+msgid "Die Energie Ampel erklärt"
+msgstr "Il semaforo dell'energia spiega"
+
+#: helper/energie_ampel-helper.php:77
+msgid ""
+"Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen "
+"unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und "
+"regenerativ produzierter Strom gerade real im Netz fließt und wie hoch der "
+"gesamtstädtische Verbrauch ausfällt. Wird zum Beispiel gerade viel Windkraft "
+"aus Norddeutschland, Solarenergie aus dem Süden oder eigener Produktion "
+"geliefert, sinkt der gegenwärtige, reale CO2-Ausstoß. Die Wuppertaler "
+"Stadtwerke berechnen seit einigen Jahren diesen realen und stundengenauen "
+"CO2-Ausstoß hinter dem Strom, den wir verbrauchen. Zusammen mit der "
+"Bergischen Universität und dem Klimaquartier Arrenberg wurden diese "
+"Berechnungen in Raster übertragen und das hier sichtbare Energiewetter "
+"entwickelt. Es zeigt in den Phasen grün, gelb und rot in drei Stufen an, ob "
+"der CO2-Ausstoß jetzt gerade bzw. in den kommenden Stunden und Tagen hoch "
+"oder niedrig ist. Verlagerung statt Verzicht. Bestehende Geräte nutzen statt "
+"sofort neu kaufen zu müssen. Auf diesem Wege kann jeder Haushalt, unabhängig "
+"von den eigenen finanziellen Möglichkeiten an der Energiewende und dem "
+"Klimaschutz mitwirken. Das löst zwar noch nicht alle Probleme, ist aber ein "
+"smarter Schritt, den alle gehen können. "
+msgstr ""
+"L’elettricità che utilizziamo ha diversi livelli di emissioni di CO2 in "
+"qualsiasi momento del giorno e della notte. A seconda di quanta elettricità "
+"prodotta a livello regionale e rigenerativo circola effettivamente nella "
+"rete e di quanto è alto il consumo in tutta la città. Ad esempio, se al "
+"momento viene fornita molta energia eolica dalla Germania settentrionale, "
+"energia solare dal sud o dalla propria produzione, la corrente emissione "
+"reale di CO2 diminuisce. I servizi pubblici di Wuppertal calcolano questa "
+"reale e oraria emissione di CO2 dell’elettricità che consumiamo da diversi "
+"anni. Insieme alla Bergische Universität e al Klimaquartier Arrenberg, "
+"questi calcoli sono stati trasferiti alle reti ed è stato sviluppato il "
+"clima energetico visibile qui. Mostra nelle fasi verde, giallo e rosso su "
+"tre livelli se le emissioni di CO2 sono alte o basse ora o nelle prossime "
+"ore e giorni. Rimandare piuttosto che rinunciare. Utilizza i dispositivi "
+"esistenti invece di acquistarne subito di nuovi. In questo modo ogni "
+"famiglia può contribuire alla transizione energetica e alla protezione del "
+"clima, indipendentemente dalle proprie risorse finanziarie. Questo non "
+"risolve tutti i problemi, ma è un passo intelligente che tutti possono fare. "
