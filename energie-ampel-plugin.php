@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Quartiersplattform Energie Ampel
-Version: 0.1
+Version: 0.2
 Description: Energie Ampel der WSW für die Quartiersplattformen in Wuppertal
 Author: studio arrenberg
 Author URI: https://github.com/studio-arrenberg

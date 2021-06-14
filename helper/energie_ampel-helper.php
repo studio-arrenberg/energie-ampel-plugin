@@ -27,7 +27,7 @@ $res = json_decode($resp, true);
                     <h2><?php _e('Energie Ampel', 'energie-ampel'); ?> <span><?php _e('für', 'energie-ampel');?> Wuppertal</span></h2>
                     <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'energie-ampel')." "; ?><?php _e('Phase', 'energie-ampel'); ?></h3>
 
-               
+
             </div>
 
         <div class="energie-ampel">
