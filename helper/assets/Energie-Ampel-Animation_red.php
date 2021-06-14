@@ -212,7 +212,10 @@
             }
             .text{
                 color:black;
-                font-size:16px;
+                font-size:1.4rem;
+                transform-origin: -50% 50%;
+                text-anchor: middle;
+                font-weight: 700;
             }
             .cls-6{
                 display:none;
@@ -378,12 +381,15 @@
         </g>
         <path id="Pfad_80" data-name="Pfad 80" class="cls-2" d="M67.75,158.65a7.23,7.23,0,0,1-4.22-1.44,7,7,0,0,0,1.12,1.32l-.91,36.14,2,.1.91-35.22a3.46,3.46,0,0,0,1,.1,4.17,4.17,0,0,0,1.12-.1l1,35.12,2-.1-1-36.14A12.22,12.22,0,0,0,72,157.21,6.82,6.82,0,0,1,67.75,158.65Z" />
     </g>
-    <text class="text" x="20" y="43" ><?php _e('Wenig Strom im Netz','energie-ampel'); ?></text>
-    <text class="text" x="10" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
-    <text class="text" x="213" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
-    <text class="text" x="450" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
-    <text class="text" x="216" y="15" ><?php _e('Stromampel auf rot','energie-ampel'); ?></text>
-    <text class="text" x="410" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
+
+
+    <text class="text" x="100" y="45" ><?php _e('Wenig Strom im Netz','energie-ampel'); ?></text>
+    <text class="text" x="70" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
+    <text class="text" x="50%" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
+    <text class="text" x="470" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
+    <!-- <text class="text" x="50%" y="15" ><?php _e('Stromampel auf rot','energie-ampel'); ?></text> -->
+    <text class="text" x="420" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
+
 
 
     <g id="Phase_color">

@@ -218,7 +218,10 @@
             }
             .text{
                 color:black;
-                font-size:16px;
+                font-size:1.4rem;
+                transform-origin: -50% 50%;
+                text-anchor: middle;
+                font-weight: 700;
             }
             .cls-5{
                 display:none;
@@ -386,12 +389,13 @@
     </g>
 
     <!-- Text -->
-    <text class="text" x="20" y="43" ><?php _e('Viel Strom im Netz','energie-ampel'); ?></text>
-    <text class="text" x="10" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
-    <text class="text" x="213" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
-    <text class="text" x="450" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
-    <text class="text" x="216" y="15" ><?php _e('Stromampel auf gelb','energie-ampel'); ?></text>
-    <text class="text" x="390" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
+
+    <text class="text" x="100" y="45" ><?php _e('Viel Strom im Netz','energie-ampel'); ?></text>
+    <text class="text" x="70" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
+    <text class="text" x="50%" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
+    <text class="text" x="470" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
+    <!-- <text class="text" x="50%" y="15" ><?php _e('Stromampel auf gelb','energie-ampel'); ?></text> -->
+    <text class="text" x="420" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
     
     <g id="Phase_color">
         <!-- <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />

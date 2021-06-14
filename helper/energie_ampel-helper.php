@@ -67,8 +67,11 @@ $res = json_decode($resp, true);
                 <h4><?php echo "CO<sub>2</sub> ".__('pro kWh', 'energie-ampel'); ?></h4> 
             </div>
 
-            
-            <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?>
+            <!--  DEBUG  -->
+            <?php // include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_yellow.php' ); ?>
+
+
+            <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?> 
         </div>
 
         <br><br>
