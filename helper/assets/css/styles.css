@@ -10,13 +10,23 @@
 
 }
 
-.energie-ampel-title h2{
-  margin-bottom: 10px;
+.energie-ampel-title {
+  margin-top: 15px
 }
 
-.energie-ampel-title {
-  text-align: center;
-  margin-top: -45px;
+.energie-ampel-title h2 {
+  margin-bottom: 5px;
+}
+
+
+
+
+@media (min-width: 782px) {
+  .energie-ampel-title {
+    text-align: center;
+    margin-top: -45px;
+  }
+  
 }
 .strom_array-container {
   overflow-x: scroll;
