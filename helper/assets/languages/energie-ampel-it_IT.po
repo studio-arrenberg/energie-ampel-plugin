@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-06-14 16:36+0200\n"
-"PO-Revision-Date: 2021-06-14 16:36+0200\n"
+"POT-Creation-Date: 2021-06-14 17:39+0200\n"
+"PO-Revision-Date: 2021-06-14 17:40+0200\n"
 "Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -46,6 +46,7 @@ msgid "Sonntag"
 msgstr "Domenica"
 
 #: energie-ampel-content.php:44 energie-ampel-content.php:46
+#: energie-ampel-content.php:61
 msgid "grüne"
 msgstr "verde"
 
@@ -84,6 +85,14 @@ msgstr "Sabato"
 #: energie-ampel-content.php:57
 msgid "Sunday"
 msgstr "Domenica"
+
+#: energie-ampel-content.php:60
+msgid "gelbe"
+msgstr "giallo"
+
+#: energie-ampel-content.php:62
+msgid "rote"
+msgstr "rosso"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:329
 #: helper/assets/Energie-Ampel-Animation_yellow.php:389

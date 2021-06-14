@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-06-13 14:15+0200\n"
-"PO-Revision-Date: 2021-06-13 14:15+0200\n"
+"POT-Creation-Date: 2021-06-14 17:38+0200\n"
+"PO-Revision-Date: 2021-06-14 17:39+0200\n"
 "Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -46,6 +46,7 @@ msgid "Sonntag"
 msgstr "Sunday"
 
 #: energie-ampel-content.php:44 energie-ampel-content.php:46
+#: energie-ampel-content.php:61
 msgid "grüne"
 msgstr "green"
 
@@ -57,25 +58,61 @@ msgstr "select red"
 msgid "gelbe auswählen"
 msgstr "select yellow"
 
+#: energie-ampel-content.php:51
+msgid "Monday"
+msgstr ""
+
+#: energie-ampel-content.php:52
+msgid "Tuesday"
+msgstr ""
+
+#: energie-ampel-content.php:53
+msgid "Wednesday"
+msgstr ""
+
+#: energie-ampel-content.php:54
+msgid "Thursday"
+msgstr ""
+
+#: energie-ampel-content.php:55
+msgid "Friday"
+msgstr ""
+
+#: energie-ampel-content.php:56
+msgid "Saturday"
+msgstr ""
+
+#: energie-ampel-content.php:57
+msgid "Sunday"
+msgstr ""
+
+#: energie-ampel-content.php:60
+msgid "gelbe"
+msgstr "yellow"
+
+#: energie-ampel-content.php:62
+msgid "rote"
+msgstr "red"
+
 #: helper/assets/Energie-Ampel-Animation_green.php:329
 #: helper/assets/Energie-Ampel-Animation_yellow.php:389
 msgid "Viel Strom im Netz"
 msgstr "A lot of electricity in the grid"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:330
-#: helper/assets/Energie-Ampel-Animation_red.php:383
+#: helper/assets/Energie-Ampel-Animation_red.php:382
 #: helper/assets/Energie-Ampel-Animation_yellow.php:390
 msgid "Erneuerbare Energien"
 msgstr "Renewable energies"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:331
-#: helper/assets/Energie-Ampel-Animation_red.php:384
+#: helper/assets/Energie-Ampel-Animation_red.php:383
 #: helper/assets/Energie-Ampel-Animation_yellow.php:391
 msgid "Fossile Energieträger"
 msgstr "Fossil energy sources"
 
 #: helper/assets/Energie-Ampel-Animation_green.php:332
-#: helper/assets/Energie-Ampel-Animation_red.php:385
+#: helper/assets/Energie-Ampel-Animation_red.php:384
 #: helper/assets/Energie-Ampel-Animation_yellow.php:392
 msgid "Quartier"
 msgstr "Quartier"
@@ -88,15 +125,15 @@ msgstr "Power traffic light on green"
 msgid "wenig Verbrauch"
 msgstr "little consumption"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:382
+#: helper/assets/Energie-Ampel-Animation_red.php:381
 msgid "Wenig Strom im Netz"
 msgstr "Little power in the grid"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:386
+#: helper/assets/Energie-Ampel-Animation_red.php:385
 msgid "Stromampel auf rot"
 msgstr "Current traffic light on red"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:387
+#: helper/assets/Energie-Ampel-Animation_red.php:386
 #: helper/assets/Energie-Ampel-Animation_yellow.php:394
 msgid "Viel Verbrauch"
 msgstr "Much consumption"
@@ -137,11 +174,11 @@ msgstr "gram"
 msgid "pro kWh"
 msgstr "per kWh"
 
-#: helper/energie_ampel-helper.php:76
+#: helper/energie_ampel-helper.php:77
 msgid "Die Energie Ampel erklärt"
 msgstr "The energy traffic light explained"
 
-#: helper/energie_ampel-helper.php:77
+#: helper/energie_ampel-helper.php:78
 msgid ""
 "Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen "
 "unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und "
