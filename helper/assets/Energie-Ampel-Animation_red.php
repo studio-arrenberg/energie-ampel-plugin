@@ -190,8 +190,7 @@
 
             #Phase_color{
                 animation: scale 2s infinite;
-                transform-origin-x: 50%;
-                transform-origin-y: 15%;
+                transform-origin: 50% 15%;
             }
 
             @keyframes scale {
