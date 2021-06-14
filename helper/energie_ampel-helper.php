@@ -71,6 +71,7 @@ $res = json_decode($resp, true);
             <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?>
         </div>
 
+        <br><br>
        
         <div>
             <h3><?php _e('Die Energie Ampel erklärt', 'energie-ampel'); ?> </h3>
