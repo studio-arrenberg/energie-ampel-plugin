@@ -47,6 +47,17 @@ __("grüne",'energie-ampel');
 __("rote auswählen",'energie-ampel');
 __("gelbe auswählen",'energie-ampel');
 
+//Wochentage
+__("Monday", "energie-ampel");
+__("Tuesday", "energie-ampel");
+__("Wednesday", "energie-ampel");
+__("Thursday", "energie-ampel");
+__("Friday", "energie-ampel");
+__("Saturday", "energie-ampel");
+__("Sunday", "energie-ampel");
+
+
+
 
 
 ?>
