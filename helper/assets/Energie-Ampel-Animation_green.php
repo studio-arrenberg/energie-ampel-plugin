@@ -114,7 +114,6 @@
                   transform: scale(1);
 
                 }
-             
             }
 
         
