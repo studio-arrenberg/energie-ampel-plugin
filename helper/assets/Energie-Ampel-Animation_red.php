@@ -228,10 +228,6 @@
     </defs>
     <title>Energie Ampel rote Phase</title>
     <g id="smoke">
-        <!-- <g> -->
-            <!-- <path id="Pfad_78" data-name="Pfad 78" class="cls-1" d="M295.57,228.44a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,295.57,228.44Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" /> -->
-            <!-- <path id="Pfad_79" data-name="Pfad 79" class="cls-1" d="M284.1,224.61a6.63,6.63,0,1,0-6.63-6.63A6.63,6.63,0,0,0,284.1,224.61Zm0-10.85a4.22,4.22,0,1,1-4.22,4.22h0A4.22,4.22,0,0,1,284.1,213.76Z" /> -->
-        <!-- </g> -->
         <g>
             <path id="smoke_1" data-name="Pfad 78" class="cls-2" d="M295.57,228.44a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,295.57,228.44Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" />
             <path id="smoke_2" data-name="Pfad 79" class="cls-2" d="M284.1,224.61a6.63,6.63,0,1,0-6.63-6.63A6.63,6.63,0,0,0,284.1,224.61Zm0-10.85a4.22,4.22,0,1,1-4.22,4.22h0A4.22,4.22,0,0,1,284.1,213.76Z" />
@@ -382,22 +378,13 @@
         <path id="Pfad_80" data-name="Pfad 80" class="cls-2" d="M67.75,158.65a7.23,7.23,0,0,1-4.22-1.44,7,7,0,0,0,1.12,1.32l-.91,36.14,2,.1.91-35.22a3.46,3.46,0,0,0,1,.1,4.17,4.17,0,0,0,1.12-.1l1,35.12,2-.1-1-36.14A12.22,12.22,0,0,0,72,157.21,6.82,6.82,0,0,1,67.75,158.65Z" />
     </g>
 
-
     <text class="text" x="100" y="45" ><?php _e('Wenig Strom im Netz','energie-ampel'); ?></text>
     <text class="text" x="70" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
     <text class="text" x="50%" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
     <text class="text" x="470" y="215" ><?php _e('Quartier','energie-ampel'); ?></text>
-    <!-- <text class="text" x="50%" y="15" ><?php _e('Stromampel auf rot','energie-ampel'); ?></text> -->
     <text class="text" x="420" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
 
-
-
     <g id="Phase_color">
-        <!-- <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />
-        <circle id="Ellipse-2" data-name="Ellipse" class="cls-7" cx="269.22" cy="63.77" r="27.05" />
-        <circle id="Ellipse-2-2" data-name="Ellipse-2" class="cls-8" cx="269.22" cy="63.77" r="18.64" />
-        <circle id="Ellipse-3" class="cls-5" cx="269.22" cy="63.77" r="10.46" /> -->
-
         <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />
         <circle id="Ellipse-2" data-name="Ellipse" class="cls-7" cx="267.79" cy="63.77" r="27.05" />
         <circle id="Ellipse-2-2" data-name="Ellipse-2" class="cls-8" cx="267.79" cy="63.77" r="18.64" />

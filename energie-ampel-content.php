@@ -29,7 +29,7 @@ add_action('wp_enqueue_scripts', 'css_style_energie_ampel');
 
 // Load Translation
 function energie_ampel_init() {
-	load_plugin_textdomain( 'energie-ampel', false, basename( dirname( __FILE__ ) ) . '/helper/assets//languages' );
+	load_plugin_textdomain( 'energie-ampel', false, basename( dirname( __FILE__ ) ) . '/helper/assets/languages' );
 }
 add_action('init', 'energie_ampel_init');
 

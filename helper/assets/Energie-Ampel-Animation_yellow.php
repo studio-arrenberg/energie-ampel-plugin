@@ -233,10 +233,6 @@
     <title>Energie Ampel gelbe Phase</title>
     
     <g id="smoke">
-        <!-- <g> -->
-            <!-- <path id="" data-name="Pfad 78" class="cls-1" d="M295.57,232.11a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,295.57,232.11Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" /> -->
-            <!-- <path id="" data-name="Pfad 79" class="cls-1" d="M284.1,228.29a6.63,6.63,0,1,0-6.63-6.63A6.63,6.63,0,0,0,284.1,228.29Zm0-10.85a4.22,4.22,0,1,1-4.22,4.22h0A4.22,4.22,0,0,1,284.1,217.43Z" /> -->
-        <!-- </g> -->
         <g>
             <path id="smoke_1" data-name="Pfad 78" class="cls-2" d="M295.57,232.11a4.31,4.31,0,1,0-4.31-4.31h0A4.32,4.32,0,0,0,295.57,232.11Zm0-6.21a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z" />
             <path id="smoke_2" data-name="Pfad 79" class="cls-2" d="M284.1,228.29a6.63,6.63,0,1,0-6.63-6.63A6.63,6.63,0,0,0,284.1,228.29Zm0-10.85a4.22,4.22,0,1,1-4.22,4.22h0A4.22,4.22,0,0,1,284.1,217.43Z" />
@@ -389,7 +385,6 @@
     </g>
 
     <!-- Text -->
-
     <text class="text" x="100" y="45" ><?php _e('Viel Strom im Netz','energie-ampel'); ?></text>
     <text class="text" x="70" y="210" ><?php _e('Erneuerbare Energien','energie-ampel'); ?></text>
     <text class="text" x="50%" y="332" ><?php _e('Fossile Energieträger','energie-ampel'); ?></text>
@@ -398,11 +393,6 @@
     <text class="text" x="420" y="45" ><?php _e('Viel Verbrauch','energie-ampel'); ?></text>
     
     <g id="Phase_color">
-        <!-- <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />
-        <circle id="Ellipse-2" data-name="Ellipse" class="cls-6" cx="269.22" cy="67.44" r="27.05" />
-        <circle id="Ellipse-2-2" data-name="Ellipse-2" class="cls-7" cx="269.22" cy="67.44" r="18.64" />
-        <circle id="Ellipse-3" class="cls-8" cx="269.22" cy="67.44" r="10.46" /> -->
-
         <circle id="Ellipse" class="white" cx="267.79" cy="63.77" r="26.5" />
         <circle id="Ellipse-2" data-name="Ellipse" class="cls-6" cx="267.79" cy="63.77" r="27.05" />
         <circle id="Ellipse-2-2" data-name="Ellipse-2" class="cls-7" cx="267.79" cy="63.77" r="18.64" />

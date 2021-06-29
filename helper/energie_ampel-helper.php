@@ -18,31 +18,21 @@ $res = json_decode($resp, true);
 <div id="overlay" class="overlay hidden">
 
 <div class="overlay-content">
-    <button class="button  " onclick="hide()">
+    <button class="button" onclick="hide()">
             <?php _e('Zurück', 'energie-ampel'); ?></span>
     </button>
 
     <div class="energie-ampel-title">
-                    <?php // if (is_user_logged_in()) echo get_user_locale(get_current_user_id()); ?>
-                    <h2><?php _e('Energie Ampel', 'energie-ampel'); ?> <span><?php _e('für', 'energie-ampel');?> Wuppertal</span></h2>
-                    <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'energie-ampel')." "; ?><?php _e('Phase', 'energie-ampel'); ?></h3>
-
-
-            </div>
+        <h2><?php _e('Energie Ampel', 'energie-ampel'); ?> <span><?php _e('für', 'energie-ampel');?> Wuppertal</span></h2>
+        <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'energie-ampel')." "; ?><?php _e('Phase', 'energie-ampel'); ?></h3>
+    </div>
 
         <div class="energie-ampel">
-
-           
-
-            <?php // _e('Tuesday', 'Wordpress');
-            ?>
-
             <div class="strom_array-container">
                 <div class="strom_array">
                     <div class="<?php echo $res['current']['color']; ?>"><label class="day"><?php _e('Jetzt', 'energie-ampel'); ?></label></div>
 
                         <?php 
-                        // iterate array
                         foreach ($res['forecast'] as $timeline => $item) {
 
                             $label = '';
@@ -70,8 +60,6 @@ $res = json_decode($resp, true);
 
             <!--  DEBUG  -->
             <?php // include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_yellow.php' ); ?>
-
-
             <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?> 
         </div>
 
@@ -87,7 +75,6 @@ $res = json_decode($resp, true);
             energieAmpel = false;   
             
             function show() {
-                // show
                 if (energieAmpel == false) {
                 
                     var element = document.getElementById("overlay");
@@ -101,7 +88,6 @@ $res = json_decode($resp, true);
                     energieAmpel = true;
                 
                 }
-                // hide
                 else {
                     hide();  
                 }
