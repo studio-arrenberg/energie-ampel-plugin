@@ -46,8 +46,9 @@ $res = json_decode($resp, true);
                         foreach ($res['forecast'] as $timeline => $item) {
 
                             $label = '';
-                            if ($color != $item['color']) $label = "<label>".$item['time']."</label>";
-                            if (date('l', $timeline) != date('l', $unix)) echo "<label class='midnight'>".__(date('l', $timeline), "energie-ampel")."</label>";
+
+                            if (isset($var) && $color != $item['color']) $label = "<label>".$item['time']."</label>";
+                            if (isset($unix) && (date('l', $timeline) != date('l', $unix))) echo "<label class='midnight'>".__(date('l', $timeline), "energie-ampel")."</label>";
                             
                             echo "<div class='".$item['color']."'>$label</div>";
 

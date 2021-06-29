@@ -32,8 +32,8 @@ Class EnergieAmpelInit {
 	 * @return	void
 	 */
 	function __construct() {
-		define('Energie_Ampel', '1.0');
-		define('Energie_Ampel', __FILE__);
+		// define('Energie_Ampel', '1.0');
+		// define('Energie_Ampel', __FILE__);
 		define('Energie_Ampel', plugin_dir_path(__FILE__));
 	}
 
