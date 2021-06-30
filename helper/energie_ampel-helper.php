@@ -36,8 +36,8 @@ $res = json_decode($resp, true);
                         foreach ($res['forecast'] as $timeline => $item) {
 
                             $label = '';
-
-                            if (isset($var) && $color != $item['color']) $label = "<label>".$item['time']."</label>";
+                            
+                            if (isset($color) && $color != $item['color']) $label = "<label>".$item['time']."</label>";
                             if (isset($unix) && (date('l', $timeline) != date('l', $unix))) echo "<label class='midnight'>".__(date('l', $timeline), "energie-ampel")."</label>";
                             
                             echo "<div class='".$item['color']."'>$label</div>";
@@ -69,6 +69,8 @@ $res = json_decode($resp, true);
             <h3><?php _e('Die Energie Ampel erklärt', 'energie-ampel'); ?> </h3>
             <p><?php _e("Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und regenerativ produzierter Strom gerade real im Netz fließt und wie hoch der gesamtstädtische Verbrauch ausfällt. Wird zum Beispiel gerade viel Windkraft aus Norddeutschland, Solarenergie aus dem Süden oder eigener Produktion geliefert, sinkt der gegenwärtige, reale CO2-Ausstoß. Die Wuppertaler Stadtwerke berechnen seit einigen Jahren diesen realen und stundengenauen CO2-Ausstoß hinter dem Strom, den wir verbrauchen. Zusammen mit der Bergischen Universität und dem Klimaquartier Arrenberg wurden diese Berechnungen in Raster übertragen und das hier sichtbare Energiewetter entwickelt. Es zeigt in den Phasen grün, gelb und rot in drei Stufen an, ob der CO2-Ausstoß jetzt gerade bzw. in den kommenden Stunden und Tagen hoch oder niedrig ist. Verlagerung statt Verzicht. Bestehende Geräte nutzen statt sofort neu kaufen zu müssen. Auf diesem Wege kann jeder Haushalt, unabhängig von den eigenen finanziellen Möglichkeiten an der Energiewende und dem Klimaschutz mitwirken. Das löst zwar noch nicht alle Probleme, ist aber ein smarter Schritt, den alle gehen können. ",'energie-ampel'); ?></p>
         </div>
+
+        <br><br>
 
         <script>
 

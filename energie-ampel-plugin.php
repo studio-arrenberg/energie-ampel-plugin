@@ -11,12 +11,10 @@ Text Domain: energie-ampel
 Function: Energie_Ampel
 */
 
-
 // Exit if accessed directly
 if (!defined( 'ABSPATH')) {
 	exit;
 }
-
 
 if(!class_exists('EnergieAmpelInit')):
 
