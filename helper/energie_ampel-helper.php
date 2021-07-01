@@ -12,6 +12,9 @@ curl_close($curl);
 
 // decode for readout
 $res = json_decode($resp, true);
+
+// set current phase for debugging
+$res['current']['color'] = 'red';
 ?>
 
 <!-- energie ampel -->
@@ -58,8 +61,6 @@ $res = json_decode($resp, true);
                 <h4><?php echo "CO<sub>2</sub> ".__('pro kWh', 'energie-ampel'); ?></h4> 
             </div>
 
-            <!--  DEBUG  -->
-            <?php // include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_yellow.php' ); ?>
             <?php include_once( plugin_dir_path( __FILE__ ) . 'assets/Energie-Ampel-Animation_'.$res['current']['color'].'.php' ); ?> 
         </div>
 
