@@ -1,18 +1,18 @@
 <?php
 
+// QP Set Menu Button
 add_action( 'qp_menu_button', 'energie_ampel_button', 10, 3 );
-
 function energie_ampel_button() {
 	?>
-		<a class="button header-button  energie-ampel-button" onclick="show()">
+		<a class="button header-button energie-ampel-button" onclick="show()">
 			<?php include_once( plugin_dir_path( __FILE__ ) . '/helper/assets/icons/ampelmann.svg'); ?>
 		</a>
 	<?php
 }
 
 
+// QP Set Overlay Content
 add_action('qp_overlays', 'energie_ampel_overlay', 10, 3);
-
 function energie_ampel_overlay() {
 	get_template_part('components/energie_ampel-menu');
 
@@ -32,37 +32,6 @@ function energie_ampel_init() {
 	load_plugin_textdomain( 'energie-ampel', false, basename( dirname( __FILE__ ) ) . '/helper/assets/languages' );
 }
 add_action('init', 'energie_ampel_init');
-
-//Translation Weekdays
-__("Montag", "energie-ampel");
-__("Dienstag", "energie-ampel");
-__("Mittwoch", "energie-ampel");
-__("Donnerstag", "energie-ampel");
-__("Freitag", "energie-ampel");
-__("Samstag", "energie-ampel");
-__("Sonntag", "energie-ampel");
-__("grüne", "energie-ampel");
-
-__("grüne",'energie-ampel');
-__("rote auswählen",'energie-ampel');
-__("gelbe auswählen",'energie-ampel');
-
-//Wochentage
-__("Monday", "energie-ampel");
-__("Tuesday", "energie-ampel");
-__("Wednesday", "energie-ampel");
-__("Thursday", "energie-ampel");
-__("Friday", "energie-ampel");
-__("Saturday", "energie-ampel");
-__("Sunday", "energie-ampel");
-
-//Farben
-__("gelbe", "energie-ampel");
-__("grüne", "energie-ampel");
-__("rote", "energie-ampel");
-
-
-
 
 
 ?>
