@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-06-14 17:38+0200\n"
-"PO-Revision-Date: 2021-06-14 17:39+0200\n"
+"POT-Creation-Date: 2021-07-01 12:24+0200\n"
+"PO-Revision-Date: 2021-07-01 12:31+0200\n"
 "Last-Translator: Studio Arrenberg <hallo@arrenberg.studio>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -94,51 +94,51 @@ msgstr "yellow"
 msgid "rote"
 msgstr "red"
 
-#: helper/assets/Energie-Ampel-Animation_green.php:329
-#: helper/assets/Energie-Ampel-Animation_yellow.php:389
+#: helper/assets/Energie-Ampel-Animation_green.php:330
+#: helper/assets/Energie-Ampel-Animation_yellow.php:393
 msgid "Viel Strom im Netz"
 msgstr "A lot of electricity in the grid"
 
-#: helper/assets/Energie-Ampel-Animation_green.php:330
-#: helper/assets/Energie-Ampel-Animation_red.php:382
-#: helper/assets/Energie-Ampel-Animation_yellow.php:390
+#: helper/assets/Energie-Ampel-Animation_green.php:331
+#: helper/assets/Energie-Ampel-Animation_red.php:387
+#: helper/assets/Energie-Ampel-Animation_yellow.php:394
 msgid "Erneuerbare Energien"
 msgstr "Renewable energies"
 
-#: helper/assets/Energie-Ampel-Animation_green.php:331
-#: helper/assets/Energie-Ampel-Animation_red.php:383
-#: helper/assets/Energie-Ampel-Animation_yellow.php:391
+#: helper/assets/Energie-Ampel-Animation_green.php:332
+#: helper/assets/Energie-Ampel-Animation_red.php:388
+#: helper/assets/Energie-Ampel-Animation_yellow.php:395
 msgid "Fossile Energieträger"
 msgstr "Fossil energy sources"
 
-#: helper/assets/Energie-Ampel-Animation_green.php:332
-#: helper/assets/Energie-Ampel-Animation_red.php:384
-#: helper/assets/Energie-Ampel-Animation_yellow.php:392
-msgid "Quartier"
-msgstr "Quartier"
-
 #: helper/assets/Energie-Ampel-Animation_green.php:333
+#: helper/assets/Energie-Ampel-Animation_red.php:389
+#: helper/assets/Energie-Ampel-Animation_yellow.php:396
+msgid "Quartier"
+msgstr "District"
+
+#: helper/assets/Energie-Ampel-Animation_green.php:334
 msgid "Stromampel auf grün"
 msgstr "Power traffic light on green"
 
-#: helper/assets/Energie-Ampel-Animation_green.php:334
+#: helper/assets/Energie-Ampel-Animation_green.php:335
 msgid "wenig Verbrauch"
 msgstr "little consumption"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:381
+#: helper/assets/Energie-Ampel-Animation_red.php:386
 msgid "Wenig Strom im Netz"
 msgstr "Little power in the grid"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:385
+#: helper/assets/Energie-Ampel-Animation_red.php:390
 msgid "Stromampel auf rot"
 msgstr "Current traffic light on red"
 
-#: helper/assets/Energie-Ampel-Animation_red.php:386
-#: helper/assets/Energie-Ampel-Animation_yellow.php:394
+#: helper/assets/Energie-Ampel-Animation_red.php:391
+#: helper/assets/Energie-Ampel-Animation_yellow.php:398
 msgid "Viel Verbrauch"
 msgstr "Much consumption"
 
-#: helper/assets/Energie-Ampel-Animation_yellow.php:393
+#: helper/assets/Energie-Ampel-Animation_yellow.php:397
 msgid "Stromampel auf gelb"
 msgstr "Current traffic light on yellow"
 
@@ -174,45 +174,46 @@ msgstr "gram"
 msgid "pro kWh"
 msgstr "per kWh"
 
-#: helper/energie_ampel-helper.php:77
+#: helper/energie_ampel-helper.php:80
 msgid "Die Energie Ampel erklärt"
 msgstr "The energy traffic light explained"
 
-#: helper/energie_ampel-helper.php:78
+#: helper/energie_ampel-helper.php:81
 msgid ""
 "Der Strom, den wir verbrauchen hat zu jeder Tages- und Nachtzeit einen "
 "unterschiedlich hohen CO2-Ausstoß. Je nachdem wie viel regional und "
 "regenerativ produzierter Strom gerade real im Netz fließt und wie hoch der "
-"gesamtstädtische Verbrauch ausfällt. Wird zum Beispiel gerade viel Windkraft "
-"aus Norddeutschland, Solarenergie aus dem Süden oder eigener Produktion "
-"geliefert, sinkt der gegenwärtige, reale CO2-Ausstoß. Die Wuppertaler "
-"Stadtwerke berechnen seit einigen Jahren diesen realen und stundengenauen "
-"CO2-Ausstoß hinter dem Strom, den wir verbrauchen. Zusammen mit der "
-"Bergischen Universität und dem Klimaquartier Arrenberg wurden diese "
-"Berechnungen in Raster übertragen und das hier sichtbare Energiewetter "
-"entwickelt. Es zeigt in den Phasen grün, gelb und rot in drei Stufen an, ob "
-"der CO2-Ausstoß jetzt gerade bzw. in den kommenden Stunden und Tagen hoch "
-"oder niedrig ist. Verlagerung statt Verzicht. Bestehende Geräte nutzen statt "
-"sofort neu kaufen zu müssen. Auf diesem Wege kann jeder Haushalt, unabhängig "
-"von den eigenen finanziellen Möglichkeiten an der Energiewende und dem "
-"Klimaschutz mitwirken. Das löst zwar noch nicht alle Probleme, ist aber ein "
-"smarter Schritt, den alle gehen können. "
+"gesamtstädtische Verbrauch ausfällt.<br><br> Wird zum Beispiel gerade viel "
+"Windkraft aus Norddeutschland, Solarenergie aus dem Süden oder eigener "
+"Produktion geliefert, sinkt der gegenwärtige, reale CO2-Ausstoß. Die "
+"Wuppertaler Stadtwerke berechnen seit einigen Jahren diesen realen und "
+"stundengenauen CO2-Ausstoß hinter dem Strom, den wir verbrauchen. "
+"<br><br>Zusammen mit der Bergischen Universität und dem Klimaquartier "
+"Arrenberg wurden diese Berechnungen in Raster übertragen und das hier "
+"sichtbare Energiewetter entwickelt. Es zeigt in den Phasen grün, gelb und "
+"rot in drei Stufen an, ob der CO2-Ausstoß jetzt gerade bzw. in den kommenden "
+"Stunden und Tagen hoch oder niedrig ist. <br><br>Verlagerung statt Verzicht. "
+"Bestehende Geräte nutzen statt sofort neu kaufen zu müssen. Auf diesem Wege "
+"kann jeder Haushalt, unabhängig von den eigenen finanziellen Möglichkeiten "
+"an der Energiewende und dem Klimaschutz mitwirken. Das löst zwar noch nicht "
+"alle Probleme, ist aber ein smarter Schritt, den alle gehen können. "
 msgstr ""
 "The electricity we use creates different levels of CO2 emissions at "
 "different times of the day and night. This depends on how much regionally "
 "and regeneratively produced electricity is actually flowing in the grid and "
-"how high city-wide consumption is. For example, if the grid is currently "
-"being supplied with a lot of wind energy from northern Germany, solar energy "
-"from the south or energy produced by individual households, the current, "
-"real CO2 emissions will decrease. Wuppertal’s public utilities have been "
-"calculating the actual hourly CO2 emissions behind the electricity we "
-"consume for several years. In collaboration with the Bergische University "
-"and the Arrenberg Climate District, these were transferred to grids and the "
-"“energy weather” concept was developed and made visible. It divides CO2 "
-"emissions into three levels and shows them in red, yellow and green to "
-"indicate whether they are currently high or low and how they are likely to "
-"evolve in the coming hours and days. So you can reschedule your usage "
-"instead of cutting down. Use existing devices instead of always buying new "
-"ones. These are ways in which every household can contribute to the energy "
-"transition and climate protection, regardless of financial resources. It "
-"won’t solve all our problems, but it’s a smart step that everyone can take. "
+"how high city-wide consumption is.<br><br> For example, if the grid is "
+"currently being supplied with a lot of wind energy from northern Germany, "
+"solar energy from the south or energy produced by individual households, the "
+"current, real CO2 emissions will decrease. Wuppertal’s public utilities have "
+"been calculating the actual hourly CO2 emissions behind the electricity we "
+"consume for several years. <br><br>In collaboration with the Bergische "
+"University and the Arrenberg Climate District, these were transferred to "
+"grids and the “energy weather” concept was developed and made visible. It "
+"divides CO2 emissions into three levels and shows them in red, yellow and "
+"green to indicate whether they are currently high or low and how they are "
+"likely to evolve in the coming hours and days.<br><br> So you can reschedule "
+"your usage instead of cutting down. Use existing devices instead of always "
+"buying new ones. These are ways in which every household can contribute to "
+"the energy transition and climate protection, regardless of financial "
+"resources. It won’t solve all our problems, but it’s a smart step that "
+"everyone can take. "
