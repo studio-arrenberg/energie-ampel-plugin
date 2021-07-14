@@ -14,7 +14,7 @@ curl_close($curl);
 $res = json_decode($resp, true);
 
 // set current phase for debugging
-$res['current']['color'] = 'red';
+// $res['current']['color'] = 'red';
 ?>
 
 <!-- energie ampel -->
