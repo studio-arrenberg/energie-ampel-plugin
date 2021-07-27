@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/tokei/lines/github/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Lines of code"/>
   <img src="https://img.shields.io/github/languages/code-size/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Code Size"/>
   <img alt="Scrutinizer code quality (GitHub/Bitbucket)" src="https://img.shields.io/scrutinizer/quality/g/studio-arrenberg/energie-ampel-plugin/main?style=flat-square">
-  <img src="https://img.shields.io/github/commit-activity/m/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Commits"/>
+  <!-- <img src="https://img.shields.io/github/commit-activity/m/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Commits"/> -->
 </p>
 
 Das Energie Wetter der Wuppertaler Stadtwerke als Plugin für die Quartiersplattform.
