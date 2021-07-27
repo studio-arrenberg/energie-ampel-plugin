@@ -2,10 +2,11 @@
 
 <p>
   <img src="https://img.shields.io/github/license/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="License"/>
-  <!-- <img src="https://img.shields.io/github/repo-size/studio-arrenberg/quartiersplattform?color=%23f7f7f7&style=flat-square" alt="Repo Size"/> -->
-  <img src="https://img.shields.io/github/commit-activity/w/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Commits"/>
+  <img src="https://img.shields.io/github/repo-size/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/commit-activity/m/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Commits"/>
   <img src="https://img.shields.io/tokei/lines/github/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Lines of code"/>
   <img src="https://img.shields.io/github/languages/code-size/studio-arrenberg/energie-ampel-plugin?color=%23f7f7f7&style=flat-square" alt="Code Size"/>
+  <img alt="Scrutinizer coverage (GitHub/BitBucket)" src="https://img.shields.io/scrutinizer/coverage/g/studio-arrenberg/energie-ampel-plugin/main?color=%23f7f7f7&style=flat-square">
 </p>
 
 Das Energie Wetter der Wuppertaler Stadtwerke als Plugin für die Quartiersplattform.
