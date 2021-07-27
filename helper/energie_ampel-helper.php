@@ -25,6 +25,26 @@ $res = json_decode($resp, true);
             <?php _e('Zurück', 'energie-ampel'); ?></span>
     </button>
 
+
+    <?php
+    // fallback when data is not available
+    if (empty($res['current']['color']) && empty($res['forecast'][0]['color'])) {
+
+        ?>
+
+            <div class="energie-ampel-title">
+                <br></br><br></br>
+                <h2><?php _e('Energie Ampel', 'energie-ampel'); ?> <span><?php _e('für', 'energie-ampel');?> Wuppertal</span></h2>
+                <h3 class=""></h3>
+                <p>Leider sind momentan keine echtzeit Daten zur Energie Ampel vorhanden, versuchen Sie es später noch ein mal.</p>
+            </div>
+
+
+        <?php
+    }
+    else {
+    ?>
+
     <div class="energie-ampel-title">
         <h2><?php _e('Energie Ampel', 'energie-ampel'); ?> <span><?php _e('für', 'energie-ampel');?> Wuppertal</span></h2>
         <h3 class="<?php echo $res['current']['color']; ?>"><?php echo __($res['current']['label']['plural'], 'energie-ampel')." "; ?><?php _e('Phase', 'energie-ampel'); ?></h3>
@@ -72,6 +92,10 @@ $res = json_decode($resp, true);
         </div>
 
         <br><br>
+
+    <?php
+    }
+    ?>
 
         <script>
 
